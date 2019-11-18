@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  server:
+    build:
+      context: "./image/"
+    image: "iw4x:latest"
+    container_name: "mw2_server"
+    restart: always
+    environment:
+      IW4X_ARGS: "-dedicated +set fs_game mods/bots +set sv_lanonly 1 +set net_port 28960 +exec serverlan.cfg +map_rotate"
+    volumes:
+      - "./data:/iw4x/server/"
+    ports:
+      - "28960:28960"
+      - "28960:28960/udp"
