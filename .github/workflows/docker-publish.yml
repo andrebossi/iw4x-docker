@@ -66,3 +66,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: ${{ env.IMAGE_NAME }}
           readme-filepath: ./README.md
+          short-description: "Container for iw4x (MW2) server"
