@@ -1,8 +1,8 @@
 # iw4x server
 
+[![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/andrebossi/iw4x-docker)
 [![GitHub](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/dobolinux/iw4x-server.svg)](https://hub.docker.com/r/dobolinux/iw4x-server)
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/dobolinux/iw4x-server.svg)](https://hub.docker.com/r/dobolinux/iw4x-server/builds)
+[![GitHub Workflow Status](https://github.com/andrebossi/iw4x-docker/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/andrebossi/iw4x-docker/actions/workflows/docker-publish.yml)
 
 Container based on Wine and Alpine to run iw4x dedicated server.
 

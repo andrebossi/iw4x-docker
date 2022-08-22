@@ -1,7 +1,6 @@
-FROM alpine:3
+FROM alpine:3.16
 
-LABEL maintainer="andreluizbossi70@gmail.com" \
-    description="Alpine based Wine environment for IW4x dedicated server."
+LABEL description="Alpine based Wine environment for IW4x dedicated server."
 
 ENV LANG en_US.utf8 \
     WINEARCH win32
