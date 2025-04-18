@@ -1,4 +1,4 @@
-FROM alpine:3.16
+FROM alpine:3.21.3
 
 LABEL description="Alpine based Wine environment for IW4x dedicated server."
 
